@@ -1,0 +1,9 @@
+.miest{
+    font-size: 25px;
+}
+
+.estbarra{
+    width: 700px;
+    height: 50px;
+    overflow-y:scroll;
+}
