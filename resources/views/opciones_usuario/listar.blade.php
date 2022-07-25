@@ -4,6 +4,7 @@
     <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-8">
+        <p>Texto X</p>
             @foreach($especialidades as $especialidad)
                 <a href="{!! 'mostardoctores/'.$especialidad->id !!}" class="btn btn-primary btn-block">
                     {!! $especialidad->nombre !!}
